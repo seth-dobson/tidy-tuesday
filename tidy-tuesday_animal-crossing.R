@@ -58,5 +58,3 @@ p <- df_final %>%
     )
   ) +
   xlim(-5, 5)
-
-ggsave2("tidy-tuesday_animal-crossing.png", p, width = 7, height = 4, dpi = 300)
